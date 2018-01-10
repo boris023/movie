@@ -1,0 +1,128 @@
+/****************************
+          DEFAULTS
+*****************************/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    
+}
+
+html{
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    
+}
+
+h1{
+    
+    
+}
+
+h2{
+    
+    
+}
+ 
+li{
+    
+    
+}
+    
+/**********************************
+    NAVIGATION
+**********************************/
+    
+.page {
+    display: none;
+    margin-top: 3rem;
+    padding: 1rem;
+}
+.page.active {
+    display: block;
+}
+    
+.not{
+    display: none;
+}
+/***********************************
+       SEARCH BAR
+***********************************/
+
+.search{
+    position: fixed;
+    z-index: 100;
+    height: 3rem;
+    left: 0;
+    top;0
+    right:0;
+}
+#search-input{
+    position: absolute;
+    z-index: 110;
+    height: 3rem;
+    left: 0;
+    top: 0;
+    right: 0rem;
+/*    width: 100%;*/
+    padding: 0 1rem;
+    font-size: 1.8rem;
+    border: 1px solid black;
+}
+
+#search-button{
+    position: absolute;
+    z-index: 120;
+    height: 3rem;
+    width: 3rem;
+    right: 0;
+    top: 0;   
+}
+/**************************************
+        SEARCH RESULTS
+**************************************/
+.movie{
+    max-width: 800px;
+    padding: 1rem;
+    border: 1px solid black;
+    overflow: auto; /*makes the border wrap floated children */
+    clear: both;    
+}
+.poster{
+    float: left;
+    margin: 0 0.5rem 0.5rem 0;
+    width: 150px;
+    height: auto;
+    min-height: 150px;  
+}
+.movie-title{
+    font-size: 2rem;
+    color:#333;
+}
+.movie-desc{
+    font-size: 1rem;
+    color: #999;
+}
+.attribution{
+    text-align: center;
+}
+.attribution img{
+    width: 30%;  
+}
+
+/*********************************************
+                RECOMMENDATIONS
+**********************************************/
+
+
+
+
+
+
+
+
+
